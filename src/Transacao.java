@@ -1,8 +1,8 @@
 public class Transacao {
-    private String tipo; // "Receita" ou "Despesa"
+    private String tipo;
     private String descricao;
     private double valor;
-    private String data; // Simples, formato "MM/yyyy"
+    private String data;
 
     public Transacao(String tipo, String descricao, double valor, String data) {
         this.tipo = tipo;
